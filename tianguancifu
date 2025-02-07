@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天官赐福</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #343a40;
+            color: white;
+            height: 100vh;
+            padding: 20px;
+            position: fixed;
+        }
+        .sidebar h2 {
+            text-align: center;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            padding: 10px;
+            border-bottom: 1px solid #495057;
+        }
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            display: block;
+        }
+        .sidebar ul li a:hover {
+            background-color: #495057;
+        }
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+            width: 100%;
+        }
+        .section {
+            padding: 50px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        #intro { background-color: #f8f9fa; }
+        #characters { background-color: #e9ecef; }
+        #gallery { background-color: #dee2e6; }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>天官赐福</h2>
+        <ul>
+            <li><a href="#intro">故事简介</a></li>
+            <li><a href="#characters">人物介绍</a></li>
+            <li><a href="#gallery">花怜图片</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <section id="intro" class="section">
+            <h2>故事简介</h2>
+            <p>《天官赐福》讲述了前太子谢怜三次飞升，与神秘鬼王花城之间的传奇故事。</p>
+        </section>
+        <section id="characters" class="section">
+            <h2>人物介绍</h2>
+            <p><strong>谢怜：</strong>昔日仙乐国太子，温柔坚韧。</p>
+            <p><strong>花城：</strong>神秘鬼王，忠心不渝。</p>
+        </section>
+        <section id="gallery" class="section">
+            <h2>花怜图片</h2>
+            <img src="hualian1.jpg" alt="花怜图1" width="300">
+            <img src="hualian2.jpg" alt="花怜图2" width="300">
+        </section>
+    </div>
+</body>
+</html>

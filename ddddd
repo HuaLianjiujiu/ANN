@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ann's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Ann's Portfolio</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#habits">Power Habits</a></li>
+                <li><a href="#life">Life Outside School</a></li>
+                <li><a href="#work">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Hello, I'm Ann</h1>
+        <p>A passionate student eager to learn and inspire the next generation.</p>
+        <button onclick="location.href='#about'">About Me</button>
+    </section>
+    
+    <section id="about" class="container">
+        <h2>A Bit About Myself</h2>
+        <p>I am a 13-year-old student from Hunan, China. I enjoy learning, making friends, and exploring new ideas. My dream is to travel the world!</p>
+    </section>
+    
+    <section id="habits" class="container">
+        <h2>Power Habits</h2>
+        <ul>
+            <li>📖 Reading</li>
+            <li>📺 Watching educational content</li>
+            <li>⚽ Playing sports</li>
+            <li>💡 Developing character</li>
+            <li>🙏 Prayer</li>
+        </ul>
+    </section>
+    
+    <section id="life" class="container">
+        <h2>My Life Outside of School</h2>
+        <p>I love reading novels, watching TV, and playing games. I find studying a bit boring, but I still work hard to learn new things!</p>
+    </section>
+    
+    <section id="work" class="container">
+        <h2>Here's My Work</h2>
+        <div class="work-item">
+            <h3>Title</h3>
+            <p>Description of my project.</p>
+            <img src="" alt="Project Image">
+            <button>Demo Here</button>
+        </div>
+    </section>
+    
+    <footer>
+        <p>© 2024 Ann's Portfolio | Made with ❤️</p>
+    </footer>
+    
+</body>
+</html>
